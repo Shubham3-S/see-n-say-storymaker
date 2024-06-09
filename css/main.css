@@ -1,0 +1,81 @@
+@charset "utf-8";
+/* Assignment 1 | COMP1073 Client-Side JavaScript */
+
+main {
+  display: grid;
+  min-height: 100vh;
+  place-content: center;
+}
+
+#toy {
+  position: relative;
+}
+
+#phraseButtonSet {
+  position: absolute;
+  top: 60px;
+  text-align: center;
+  right: 73px;
+}
+
+#phraseButtonSet h3 {
+  margin-top: 0.4rem;
+}
+
+/*Comman styling that all buttons have */
+.phraseButton,
+#PlayStory,
+#RandomStory {
+  width: 51px;
+  height: 51px;
+  border-radius: 50%;
+  margin-left: 0.5rem;
+  border: 0;
+  box-shadow: 2px 2px 5px black;
+}
+
+#RandomStoryDiv {
+  position: absolute;
+  bottom: 32px;
+  right: 32px;
+}
+
+#PlayButtonDiv {
+  position: absolute;
+  bottom: 47px;
+  right: 130px;
+}
+
+p {
+  font-weight: bold;
+}
+
+/*  Styling buttons*/
+
+#RandomStory {
+  background-color: #01ae91;
+}
+
+#PlayStory {
+  background-color: #e61009;
+}
+
+#phraseButtonOne {
+  background-color: #be0fac;
+}
+
+#phraseButtonTwo {
+  background-color: #14cbed;
+}
+
+#phraseButtonThree {
+  background-color: #62cb14;
+}
+
+#phraseButtonFour {
+  background-color: #fe891e;
+}
+
+#phraseButtonFive {
+  background-color: #f952ce;
+}
